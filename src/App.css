@@ -1,0 +1,104 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+header{
+  background-color: royalblue;
+  color: aliceblue;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: flex-start;
+
+}
+footer{
+  text-align: center;
+  background-color: royalblue;
+  color: aliceblue;
+}
+
+main ul{
+  width: 85vw;
+}
+main ul li{
+  min-height: 5rem;
+  padding: .9rem;
+  position: relative;
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  list-style: none;
+  display: flex;
+  /* justify-content: space-evenly; */
+ align-items: center;
+  background-color: rgb(189, 189, 189);
+}
+
+main ul svg,main ul input{
+ height: 33px;
+ max-height: 33px;
+ width: 48px;
+ min-width: 48px;
+ margin: 0 .1rem;
+ color: rgb(3, 93, 121);
+}
+ main ul li label{
+  width: 70%;
+  margin: .2rem;
+  display: flex;
+  /* justify-content: center; */
+ }
+
+ 
+ /* main ul .k:hover 
+ {
+  color: red;
+  text-decoration: underline;
+ } */
+
+
+main ul li svg{
+  position: absolute;
+  float: right;
+  left:85%;
+  cursor: pointer;
+}
+
+main ul li svg:focus{
+color: red;
+}
+
+.addForm,.searchForm{
+ display: flex;
+ justify-content: center;
+ margin:.6rem .3rem 1.2rem;
+ transition:2s ease-in;
+}
+.addForm input, .searchForm input:hover{
+  transition:2s ease-in;
+  width: 90%;
+  padding: 1rem;
+  height: 2rem;
+  font-size: 1.2rem;
+}
+.addForm button{
+  display: grid;
+  place-content: center;
+  color: blue;
+  height: 2rem;
+  padding: 1rem;
+}
+
+.addForm button:hover{
+  background-color: green;
+  color: aliceblue;
+}
+
+/* .searchForm input{
+  width: 100vw;
+} */
