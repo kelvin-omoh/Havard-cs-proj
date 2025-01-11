@@ -45,6 +45,7 @@ const Line_item = ({ handleClick, handleDelete, item }) => {
         <div className="checkbox-wrapper">
           <input
             type="checkbox"
+            data-testid="task-1"
             checked={item.checked}
             onChange={() => handleClick(item.id)}
             id={`task-${item.id}`}

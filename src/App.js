@@ -118,7 +118,7 @@ function App() {
         <div className="dashboard-grid">
           <div className="stats-card">
             <h3>Total Tasks</h3>
-            <p>{totalItems}</p>
+            <p data-testid="total-tasks">{totalItems}</p>
           </div>
           <div className="stats-card">
             <h3>Completed</h3>

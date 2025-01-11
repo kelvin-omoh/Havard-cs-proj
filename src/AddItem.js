@@ -56,6 +56,7 @@ const AddItem = ({ newItem, setNewItem, newDueDate, setNewDueDate, handleSubmit 
                       onChange={(e) => setNewDueDate(e.target.value)}
                       min={new Date().toISOString().slice(0, 16)}
                       className="datetime-input"
+                      data-testid='date-input'
                     />
                   </div>
                 </motion.div>
